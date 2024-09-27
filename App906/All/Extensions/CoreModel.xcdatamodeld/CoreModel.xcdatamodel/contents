@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DiscModel" representedClassName="DiscModel" syncable="YES" codeGenerationType="class">
+        <attribute name="disDescr" optional="YES" attributeType="String"/>
+        <attribute name="disName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ExpModel" representedClassName="ExpModel" syncable="YES" codeGenerationType="class">
+        <attribute name="exCost" optional="YES" attributeType="String"/>
+        <attribute name="exName" optional="YES" attributeType="String"/>
+        <attribute name="exTotal" optional="YES" attributeType="String"/>
+        <attribute name="exWeight" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="IngredModel" representedClassName="IngredModel" syncable="YES" codeGenerationType="class">
+        <attribute name="inBrand" optional="YES" attributeType="String"/>
+        <attribute name="inName" optional="YES" attributeType="String"/>
+        <attribute name="inPrice" optional="YES" attributeType="String"/>
+        <attribute name="inType" optional="YES" attributeType="String"/>
+        <attribute name="inWeight" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MenuModel" representedClassName="MenuModel" syncable="YES" codeGenerationType="class">
+        <attribute name="menAllergens" optional="YES" attributeType="String"/>
+        <attribute name="menCPrice" optional="YES" attributeType="String"/>
+        <attribute name="menDescr" optional="YES" attributeType="String"/>
+        <attribute name="menIng" optional="YES" attributeType="String"/>
+        <attribute name="menName" optional="YES" attributeType="String"/>
+        <attribute name="menPhoto" optional="YES" attributeType="String"/>
+        <attribute name="menPrice" optional="YES" attributeType="String"/>
+        <attribute name="menSize" optional="YES" attributeType="String"/>
+        <attribute name="menSizeOp" optional="YES" attributeType="String"/>
+        <attribute name="menType" optional="YES" attributeType="String"/>
+    </entity>
+</model>

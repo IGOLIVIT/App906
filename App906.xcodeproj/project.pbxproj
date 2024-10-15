@@ -10,6 +10,9 @@
 		789DE23D2CA49E6600E22096 /* IngredientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DE23C2CA49E6600E22096 /* IngredientsViewModel.swift */; };
 		789DE23F2CA5692B00E22096 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DE23E2CA5692B00E22096 /* SettingsViewModel.swift */; };
 		789DE2422CA56A2300E22096 /* DiscountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DE2412CA56A2300E22096 /* DiscountsView.swift */; };
+		78BAAE692CBECF1B0017319E /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE682CBECF1B0017319E /* Sun.swift */; };
+		78BAAE6B2CBECF240017319E /* Wrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE6A2CBECF240017319E /* Wrong.swift */; };
+		78BAAE6D2CBECF300017319E /* During.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE6C2CBECF300017319E /* During.swift */; };
 		78F1480F2CA33907000586E5 /* App906App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1480E2CA33907000586E5 /* App906App.swift */; };
 		78F148112CA33907000586E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F148102CA33907000586E5 /* ContentView.swift */; };
 		78F148132CA33909000586E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F148122CA33909000586E5 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 		789DE23C2CA49E6600E22096 /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; };
 		789DE23E2CA5692B00E22096 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		789DE2412CA56A2300E22096 /* DiscountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsView.swift; sourceTree = "<group>"; };
+		78BAAE682CBECF1B0017319E /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		78BAAE6A2CBECF240017319E /* Wrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrong.swift; sourceTree = "<group>"; };
+		78BAAE6C2CBECF300017319E /* During.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = During.swift; sourceTree = "<group>"; };
 		78F1480B2CA33907000586E5 /* App906.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App906.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F1480E2CA33907000586E5 /* App906App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App906App.swift; sourceTree = "<group>"; };
 		78F148102CA33907000586E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +169,9 @@
 				78F1483A2CA339AC000586E5 /* Array.swift */,
 				78F1483C2CA339B9000586E5 /* DateConvert.swift */,
 				78F1483E2CA339C0000586E5 /* CoreModel.xcdatamodeld */,
+				78BAAE682CBECF1B0017319E /* Sun.swift */,
+				78BAAE6A2CBECF240017319E /* Wrong.swift */,
+				78BAAE6C2CBECF300017319E /* During.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -340,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BAAE692CBECF1B0017319E /* Sun.swift in Sources */,
 				78F148502CA35158000586E5 /* HomeViewModel.swift in Sources */,
 				78F148272CA3395E000586E5 /* TabBar.swift in Sources */,
 				78F1483D2CA339B9000586E5 /* DateConvert.swift in Sources */,
@@ -354,6 +364,7 @@
 				789DE23D2CA49E6600E22096 /* IngredientsViewModel.swift in Sources */,
 				78F148582CA45E6D000586E5 /* MenuDetail.swift in Sources */,
 				78F1482F2CA33984000586E5 /* Reviews.swift in Sources */,
+				78BAAE6B2CBECF240017319E /* Wrong.swift in Sources */,
 				789DE2422CA56A2300E22096 /* DiscountsView.swift in Sources */,
 				78F148312CA33989000586E5 /* Not.swift in Sources */,
 				78F148392CA339A5000586E5 /* CoreDataStack.swift in Sources */,
@@ -362,6 +373,7 @@
 				78F148332CA33991000586E5 /* R1.swift in Sources */,
 				78F1483B2CA339AC000586E5 /* Array.swift in Sources */,
 				78F148372CA3399D000586E5 /* R3.swift in Sources */,
+				78BAAE6D2CBECF300017319E /* During.swift in Sources */,
 				78F148402CA339C0000586E5 /* CoreModel.xcdatamodeld in Sources */,
 				78F1480F2CA33907000586E5 /* App906App.swift in Sources */,
 				789DE23F2CA5692B00E22096 /* SettingsViewModel.swift in Sources */,
@@ -496,7 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App906/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CafeWiProfit;
+				INFOPLIST_KEY_CFBundleDisplayName = "Win Profit";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -512,7 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App906;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -535,7 +547,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App906/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CafeWiProfit;
+				INFOPLIST_KEY_CFBundleDisplayName = "Win Profit";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -551,7 +563,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App906;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

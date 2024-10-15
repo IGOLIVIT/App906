@@ -88,6 +88,8 @@ struct SettingsView: View {
                             
                             guard let url = URL(string: "https://www.termsfeed.com/live/837be3b5-1063-4da7-b0ff-b62ab0c397b8") else { return }
                             
+                            UIApplication.shared.open(url)
+                            
                         }, label: {
                             
                             HStack {
